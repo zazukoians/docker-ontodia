@@ -1,0 +1,23 @@
+{
+  "name": "ontodia-docker",
+  "private": true,
+  "version": "1.0.0",
+  "description": "This is a minimal image for [Ontodia](http://ontodia.org/), a platform for exploration and visualization of graph-based data. It allows you to run an Ontodia instance in Docker.",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zazukoians/ontodia-docker.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "",
+  "bugs": {
+    "url": "https://github.com/zazukoians/ontodia-docker/issues"
+  },
+  "homepage": "https://github.com/zazukoians/ontodia-docker#readme",
+  "dependencies": {
+    "ontodia": "^0.12.0"
+  }
+}
