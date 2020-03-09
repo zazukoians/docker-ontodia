@@ -6,15 +6,11 @@ This is a minimal image for [Ontodia](http://ontodia.org/), a platform for explo
 
 To build the image checkout the repository on your host and
 
-1. Install Ontodia
-
-    `npm install`
-
-2. Build the docker image
+1. Build the docker image
 
     `docker build -t ontodia .`
 
-3. Once it is built, run it like this
+1. Once it is built, run it like this
 
     `docker run --rm --env SPARQL_ENDPOINT=https://example.com/query -p 8080:80 ontodia`
 
